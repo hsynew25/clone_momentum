@@ -7,19 +7,29 @@
     <title>clone momentum</title>
   </head>
   <body>
-    <div class="js-clock">
-      <h1 class="title"></h1>
+    <div class="wrap">
+      <div class="js-clock">
+        <h1 class="title"></h1>
+      </div>
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name ?" />
+      </form>
+      <h4 class="js-greeting greetings"></h4>
+      <form class="js-todoForm todoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-todoList todoList"></ul>
+      <div class="js-weather weather">
+        <div class="tempAndPlace"></div>
+        <div class="weatherInfo"></div>
+        <div class="description"></div>
+      </div>
     </div>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name ?" />
-    </form>
-    <h4 class="js-greeting greetings"></h4>
-    <form class="js-todoForm">
-      <input type="text" placeholder="write a to do" />
-    </form>
-    <ul class="js-todoList"></ul>
+
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>

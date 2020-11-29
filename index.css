@@ -1,3 +1,25 @@
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+form,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  padding: 200px;
+  text-align: center;
+}
+
 .form,
 .greetings {
   display: none;
@@ -5,4 +27,82 @@
 
 .showing {
   display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.form input {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.greetings {
+  font-size: 40px;
+}
+
+.todoForm {
+  padding: 15px;
+}
+
+.todoForm input {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.todoList li {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  position: relative;
+}
+
+.todoList li button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.weather {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.weather div {
+  margin-top: 10px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #ffffff, 0 0 1em #ffffff, 0 0 0.2em #ffffff;
 }

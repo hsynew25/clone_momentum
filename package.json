@@ -1,0 +1,23 @@
+{
+  "name": "clone_momentum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bg.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsynew25/clone_momentum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsynew25/clone_momentum/issues"
+  },
+  "homepage": "https://hsynew25.github.io/clone_momentum"
+}
