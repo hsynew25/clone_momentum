@@ -57,7 +57,7 @@ function saveCoords(coordsObj) {
 <br />
 <br />
 
-유저네임,todo list 로컬 스토리지에서 불러오기
+유저네임,todo list,coords 로컬 스토리지에서 불러오기
 
 ```javascript
 function loadName() {
