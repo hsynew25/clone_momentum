@@ -18,6 +18,9 @@ https://hsynew25.github.io/clone_momentum/
 
 매 초마다 시계 업데이트 (setInterval)
 
+- setTimeout : 일정 시간이 지난 후에 함수를 실행
+- setInterval : 일정 시간 간격을 두고 함수를 실행
+
 ```javascript
 function init() {
   getTime();
