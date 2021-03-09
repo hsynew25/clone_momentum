@@ -16,6 +16,18 @@ https://hsynew25.github.io/clone_momentum/
 
 <br />
 
+매 초마다 시계 업데이트 (setInterval)
+
+```javascript
+function init() {
+  getTime();
+  setInterval(getTime, 1000);
+}
+```
+
+<br />
+<br />
+
 시, 분, 초가 한 자리수면 앞에 0 붙이기 (삼항연사자 사용)
 
 ```javascript
